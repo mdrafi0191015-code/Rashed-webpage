@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rashed Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Rashed</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-img">
+      <img src="images/hero.jpg" alt="Rashed">
+    </div>
+    <div class="hero-text">
+      <h2>Hello, I'm <span>Rashed</span></h2>
+      <p>Web Developer | Learner | Content Creator</p>
+      <a href="#projects" class="btn">🚀 View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I am a passionate learner and aspiring developer. I love coding, content creation,
+      and continuously improving my skills to create impactful projects.
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-list">
+      <div class="skill">⚡ HTML</div>
+      <div class="skill">🎨 CSS</div>
+      <div class="skill">💻 JavaScript</div>
+      <div class="skill">🐍 Python</div>
+      <div class="skill">🎥 Content Creation</div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <img src="images/project1.jpg" alt="Project 1">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <img src="images/project2.jpg" alt="Project 2">
+        <h3>Todo App</h3>
+        <p>A simple Todo application built with Python.</p>
+      </div>
+      <div class="project">
+        <img src="images/project3.jpg" alt="Project 3">
+        <h3>Content Blog</h3>
+        <p>A blog where I share my thoughts and learning journey.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">📩 Send Message</button>
+    </form>
+    <p id="successMsg" class="success-msg"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Rashed | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
